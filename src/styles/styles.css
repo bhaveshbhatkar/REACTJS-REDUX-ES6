@@ -1,0 +1,165 @@
+/* Styles */
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.navbar-brand>img {
+  padding-left:15px;
+}
+
+.container-content{
+  margin-top:50px;
+}
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.navbar-brand{
+  padding: 5px 15px !important;
+}
+.navbar-inverse{
+  background-color: #FFCC00 !important;
+  border-bottom-color: #dbaf00 !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #333333 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #000 !important;
+}
+
+.navbar-right{
+  margin-right: 20px !important;
+}
+
+.quote-title{
+  background:#000;
+  padding-left:15px;
+  color:#C5C5C5;
+  line-height:30px;
+}
+.footer{
+  border-color: #e8e8e8 !important;
+  text-align: center;
+  background:#262626;
+  height:30px;
+  line-height: 30px;
+  align-content: center;
+  color:#C5C5C5;
+}
+
+.price-tool-tabs{
+  text-align: center;
+}
+.price-tool-tabs a{
+  padding-right:15px;
+  text-decoration: none !important;
+}
+.price-tool-tabs a:hover{
+  color:#ED6F00;
+  cursor:pointer;
+}
+.pricing-tool-title{
+  float:left;
+}
+.active-tab{
+  color:#FDBB30 !important;
+}
+.quote-name{
+  width:50%;
+}
+.home-actions{
+  width: 85%;
+  float: right;
+  padding-left:32%;
+  margin-right: 4px;
+}
+.home-actions a{
+  text-decoration: none !important;
+  padding-right:25px;
+  color:#59788F;
+}
+.home-actions a:hover{
+  cursor:pointer;
+  color:#ED6F00;
+}
+
+.quote-detail a:hover{
+  text-decoration: none !important;
+}
+
+
+.quote-detail a:hover{
+  cursor:pointer;
+  color:#ED6F00;
+}
+
+.create-new-quote{
+  float:right;
+  padding-right:15px;
+}
+.create-new-quote a:hover{
+  text-decoration: none !important;
+}
+
+.quote-link a:hover{
+  cursor:pointer;
+  color:#ED6F00;
+  text-decoration: none !important;
+}
+
+.create-new-quote a:hover{
+  cursor:pointer;
+  color:#ED6F00;
+}
+
+.under-construction{
+  padding:100px !important;
+  padding-left: 400px !important;
+}
+
+
+.blink_me {
+  color:#ED6F00;
+  animation: blinker 1s linear infinite;
+  text-decoration: underline;
+  font-size: 18px;
+  padding-left:15px;
+  padding-right:15px;
+
+}
+
+@keyframes blinker {
+  70% { opacity: 0; }
+}
+
+.quote-rep-header .row{
+  margin-top:6px;
+}
+
+.quote-rep-header label{
+  padding-top:4px;
+  font-weight: 400;
+  padding-left:15px;
+}
+.quote-prd-info-title{
+  padding-left:15px;
+  padding-top:4px;
+}
+.quote-rep-header input{
+
+}
+
+.quote-rep-header input[type="text"]:focus{
+  outline: none;
+  border: 1px solid  #FDBB30 !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.quote-rep-header .col-md-4{
+  margin-left: -40px !important;
+}
